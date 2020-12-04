@@ -79,4 +79,4 @@ let chatData = [
 The chat messages must start at the bottom of the screen and move upwards. See chatbot.mp4. You do not need to replicate the chatbot exactly, but you do need to ensure the messages start at the bottom and fill the screen upwards as shown in chatbot.mp4.
 
 #### Bonus
-Bonus points: display "Suzy is typing..." message during the 1.5 second delay between receiving messages.
+Bonus points: display "Suzy is typing..." message during the 1.5 second delay between receiving messages and or implement a method to replace `[NAME]` with your name as chats are inserted.
