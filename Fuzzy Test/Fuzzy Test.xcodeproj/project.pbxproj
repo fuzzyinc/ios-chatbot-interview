@@ -13,7 +13,6 @@
 		967734A2256DB32B0028099F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967734A0256DB32B0028099F /* Main.storyboard */; };
 		967734A4256DB32D0028099F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967734A3256DB32D0028099F /* Assets.xcassets */; };
 		967734A7256DB32D0028099F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967734A5256DB32D0028099F /* LaunchScreen.storyboard */; };
-		967734B0256DB36B0028099F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967734AF256DB36B0028099F /* MainViewController.swift */; };
 		967734B9256DB9830028099F /* MessageReceivedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967734B8256DB9830028099F /* MessageReceivedTableViewCell.swift */; };
 		967734BC256DBA4F0028099F /* MessageSentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967734BB256DBA4F0028099F /* MessageSentTableViewCell.swift */; };
 		967734BF256DC31E0028099F /* chatbot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967734BE256DC31E0028099F /* chatbot.jpg */; };
@@ -28,7 +27,6 @@
 		967734A3256DB32D0028099F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		967734A6256DB32D0028099F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		967734A8256DB32D0028099F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		967734AF256DB36B0028099F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		967734B8256DB9830028099F /* MessageReceivedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReceivedTableViewCell.swift; sourceTree = "<group>"; };
 		967734BB256DBA4F0028099F /* MessageSentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSentTableViewCell.swift; sourceTree = "<group>"; };
 		967734BE256DC31E0028099F /* chatbot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chatbot.jpg; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				967734A8256DB32D0028099F /* Info.plist */,
 				967734BE256DC31E0028099F /* chatbot.jpg */,
 				967734C1256DC4080028099F /* chatbot.mp4 */,
-				967734AF256DB36B0028099F /* MainViewController.swift */,
 			);
 			path = "Fuzzy Test";
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 				967734BC256DBA4F0028099F /* MessageSentTableViewCell.swift in Sources */,
 				9677349B256DB32B0028099F /* AppDelegate.swift in Sources */,
 				9677349D256DB32B0028099F /* SceneDelegate.swift in Sources */,
-				967734B0256DB36B0028099F /* MainViewController.swift in Sources */,
 				967734B9256DB9830028099F /* MessageReceivedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
