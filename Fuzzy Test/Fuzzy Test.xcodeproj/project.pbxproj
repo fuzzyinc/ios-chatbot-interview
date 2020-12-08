@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF4DEC7257F021200B3911F /* instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4DEC6257F021200B3911F /* instructions.swift */; };
 		9677349B256DB32B0028099F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677349A256DB32B0028099F /* AppDelegate.swift */; };
 		9677349D256DB32B0028099F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677349C256DB32B0028099F /* SceneDelegate.swift */; };
 		9677349F256DB32B0028099F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677349E256DB32B0028099F /* ViewController.swift */; };
@@ -15,10 +16,10 @@
 		967734A7256DB32D0028099F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967734A5256DB32D0028099F /* LaunchScreen.storyboard */; };
 		967734B9256DB9830028099F /* MessageReceivedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967734B8256DB9830028099F /* MessageReceivedTableViewCell.swift */; };
 		967734BC256DBA4F0028099F /* MessageSentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967734BB256DBA4F0028099F /* MessageSentTableViewCell.swift */; };
-		967734BF256DC31E0028099F /* chatbot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967734BE256DC31E0028099F /* chatbot.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CF4DEC6257F021200B3911F /* instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructions.swift; sourceTree = "<group>"; };
 		96773497256DB32B0028099F /* Fuzzy Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuzzy Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9677349A256DB32B0028099F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9677349C256DB32B0028099F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,8 +30,6 @@
 		967734A8256DB32D0028099F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		967734B8256DB9830028099F /* MessageReceivedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReceivedTableViewCell.swift; sourceTree = "<group>"; };
 		967734BB256DBA4F0028099F /* MessageSentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSentTableViewCell.swift; sourceTree = "<group>"; };
-		967734BE256DC31E0028099F /* chatbot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chatbot.jpg; sourceTree = "<group>"; };
-		967734C1256DC4080028099F /* chatbot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chatbot.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +70,7 @@
 				967734A3256DB32D0028099F /* Assets.xcassets */,
 				967734A5256DB32D0028099F /* LaunchScreen.storyboard */,
 				967734A8256DB32D0028099F /* Info.plist */,
-				967734BE256DC31E0028099F /* chatbot.jpg */,
-				967734C1256DC4080028099F /* chatbot.mp4 */,
+				3CF4DEC6257F021200B3911F /* instructions.swift */,
 			);
 			path = "Fuzzy Test";
 			sourceTree = "<group>";
@@ -146,7 +144,6 @@
 				967734A7256DB32D0028099F /* LaunchScreen.storyboard in Resources */,
 				967734A4256DB32D0028099F /* Assets.xcassets in Resources */,
 				967734A2256DB32B0028099F /* Main.storyboard in Resources */,
-				967734BF256DC31E0028099F /* chatbot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +156,7 @@
 			files = (
 				9677349F256DB32B0028099F /* ViewController.swift in Sources */,
 				967734BC256DBA4F0028099F /* MessageSentTableViewCell.swift in Sources */,
+				3CF4DEC7257F021200B3911F /* instructions.swift in Sources */,
 				9677349B256DB32B0028099F /* AppDelegate.swift in Sources */,
 				9677349D256DB32B0028099F /* SceneDelegate.swift in Sources */,
 				967734B9256DB9830028099F /* MessageReceivedTableViewCell.swift in Sources */,
@@ -310,6 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Fuzzy Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Fuzzy Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
